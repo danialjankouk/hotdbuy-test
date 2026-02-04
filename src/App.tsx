@@ -1,7 +1,7 @@
 import React from "react";
 import Products from "./pages/Products";
 import "./styles/ui.css";
-import Logo from "./assets/logo.webp";
+import Logo from "./assets/logo.png";
 
 const App: React.FC = () => {
   return (
