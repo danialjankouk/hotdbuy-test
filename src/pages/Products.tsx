@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { fetchProducts } from "../services/api";
-import ProductCard, { Product } from "../components/ProductCard";
-
+import ProductCard, { type Product } from "../components/ProductCard";
 const Products: React.FC = () => {
   const [products, setProducts] = useState<Product[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
